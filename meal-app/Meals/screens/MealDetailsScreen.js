@@ -27,7 +27,7 @@ function MealDetailsScreen ({color,route}){
     }
 
     useLayoutEffect(() =>{
-        NavigationPreloadManager.setOptions({
+        navigation.setOptions({
             headerRight: () => {
                 return(
                     <IconButton
